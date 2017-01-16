@@ -1,0 +1,38 @@
+{
+  "name": "Movie-CRUD-API",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "test": "SET \"NODE_ENV=test\" && mocha --recursive --timeout 10000"
+  },
+  "main": "./bin/www",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "config": "^1.21.0",
+    "emailjs": "^1.0.8",
+    "express": "^4.14.0",
+    "express-jwt": "^5.0.0",
+    "express-jwt-permissions": "^0.2.2",
+    "jsonwebtoken": "^7.1.9",
+    "moment": "^2.15.2",
+    "mongoose": "^4.5.1",
+    "morgan": "^1.7.0",
+    "nconf": "^0.8.4",
+    "pg": "^6.1.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^3.24.3",
+    "sequelize-fixtures": "^0.5.4",
+    "shortid": "^2.2.6",
+    "socket.io": "^1.7.1",
+    "swagger-jsdoc": "^1.7.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.1.2",
+    "sinon": "^1.17.6",
+    "sinon-chai": "^2.8.0",
+    "swagger-ui": "^2.2.6"
+  }
+}

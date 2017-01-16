@@ -1,0 +1,19 @@
+{
+    "jwtSecret": "hsdfgjgeuueuj",
+    "tokenLifeTime": "30m",
+    "database": {
+        "structured": {
+            "driver": "postgres",
+            "host": "192.168.2.10",
+            "name": "sector5-test",
+            "user": "testme",
+            "password": "me1100"
+        },
+        "unstructured": {
+            "host": "192.168.10.1",
+            "name": "sector5-test",
+            "user": "testme",
+            "password": "me1100"
+        }
+    }
+}

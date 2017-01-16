@@ -1,0 +1,17 @@
+{
+    "database": {
+        "structured": {
+            "driver": "postgres",
+            "host": "localhost",
+            "name": "sector5-test",
+            "user": "postgres",
+            "password": "postgres"
+        },
+        "unstructured": {
+            "host": "192.168.10.1",
+            "name": "sector5-test",
+            "user": "testme",
+            "password": "me1100"
+        }
+    }
+}
